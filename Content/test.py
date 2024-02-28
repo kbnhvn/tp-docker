@@ -46,7 +46,7 @@ def content_test(username, password, entrypoint, sentence,  expected):
         test_status = 'SUCCESS'
     elif expected == 'negative' and score < 0:
         test_status = 'SUCCESS'
-    elif expected == 'neutral' and score = 0:
+    elif expected == 'neutral' and score == 0:
         test_status = 'SUCCESS'
     else:
         test_status = 'FAILURE'
